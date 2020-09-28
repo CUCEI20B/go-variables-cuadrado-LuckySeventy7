@@ -3,10 +3,9 @@ package main
 import "fmt"
 
 func main()  {
-	var a float64
-	var b float64
-	fmt.Scan(&a)
-	fmt.Scan(&b)
-	c := (a * b) 
-	fmt.Println(c)
+	var lado uint64
+	fmt.Scanln(&lado)
+	area := lado * lado
+	fmt.Println(area)
+
 }
