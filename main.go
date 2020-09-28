@@ -3,9 +3,10 @@ package main
 import "fmt"
 
 func main()  {
-	var lado uint64
-	fmt.Scanln(&lado)
-	area := lado * lado
+	var lade uint64
+	fmt.Scanln(&lade)
+	area := lade * lade
 	fmt.Println(area)
 
 }
+
